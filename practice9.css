@@ -24,9 +24,7 @@ main {
   background-color: #eee;
 }
 
-.step-box:last-child {
-  margin-right: 0;
-}
+
 
 .step-img1 {
   height: 150px;
@@ -88,7 +86,7 @@ flex-direction: column;
   margin-bottom: 20px;
 }
 .step-box:last-child {
-    margin-bottom: 50px;
+    margin-bottom: 0px;
   }
 
 .step-img1,
@@ -98,6 +96,9 @@ flex-direction: column;
   width: 100%;
 }
 
+footer{
+  margin-top: 50px;
+}
 
 }
 
