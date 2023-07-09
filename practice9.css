@@ -4,6 +4,7 @@
   padding: 0;
 }
 
+
 header {
   height: 50px;
   background-color: #ff9a4b;
@@ -23,27 +24,25 @@ main {
   background-color: #eee;
 }
 
-.step-box:last-child {
-  margin-right: 0;
-}
+
 
 .step-img1 {
   height: 150px;
-  background-image: url(img/flow01.png);
+  background-image: url(flow01.png);
   background-position: bottom;
   background-size: cover;
 }
 
 .step-img2 {
   height: 150px;
-  background-image: url(img/flow02.png);
+  background-image: url(flow02.png);
   background-position: bottom;
   background-size: cover;
 }
 
 .step-img3 {
   height: 150px;
-  background-image: url(img/flow03.png);
+  background-image: url(flow03.png);
   background-position: bottom;
   background-size: cover;
 }
@@ -64,3 +63,42 @@ footer {
   height: 50px;
   background-color: #aaa;
 }
+
+@media screen and (max-width: 768px) {
+
+header{
+  width:100%;
+  height: 50px;
+  margin-bottom: 50px;
+}
+
+main {
+width: 90%;
+margin: 50px auto;
+display: flex;
+flex-direction: column;
+}
+
+.step-box {
+ display: block;
+ flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.step-box:last-child {
+    margin-bottom: 0px;
+  }
+
+.step-img1,
+.step-img2,
+.step-img3　 {
+ display: block;
+  width: 100%;
+}
+
+footer{
+  margin-top: 50px;
+}
+
+}
+
